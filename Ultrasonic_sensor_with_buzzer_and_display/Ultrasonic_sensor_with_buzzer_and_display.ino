@@ -3,6 +3,7 @@ SevSeg sevseg;
 
 int trigPin = 12;
 int echoPin = 11;
+
 int buzzPin = 10;
 int pingTravelTime;
 int buzzDelay;
