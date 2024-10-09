@@ -13,12 +13,12 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  // Serial.print("What Angle: ");
-  // while(Serial.available() == 0){
+  Serial.print("What Angle: ");
+  while(Serial.available() == 0){
 
-  // }
-  // servoPos = Serial.parseInt();
-  // Serial.println(servoPos);
+  }
+  servoPos = Serial.parseInt();
+  Serial.println(servoPos);
 
 
   myServo.write(servoPos);
@@ -28,5 +28,5 @@ void loop() {
   // }else{
   //   servoPos = 90;
   // }
-  // delay(delayT);
+  delay(delayT);
 }
